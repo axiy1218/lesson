@@ -1,7 +1,7 @@
 void main(List<String> args) {
   //* integer 18
 
-  var number = 12345;
+  var number = 1477345;
   number ~/= 1000;
   var qoldiq = number % 10;
   print(qoldiq);

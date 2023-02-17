@@ -1,0 +1,45 @@
+targets:
+  $default:
+    builders:
+      enum_assist:
+        enabled: true
+        options:
+          # possible values:
+          # - true
+          # - false
+          # default: true
+          # create_json_conv: true
+          create_name: true
+          # create_description: true
+          # create_to_int: true
+          create_readable: true
+          # create_serialized: true
+
+          # possible values:
+          # - camel
+          # - capital
+          # - constant
+          # - dot
+          # - header
+          # - kebab
+          # - no
+          # - none
+          # - pascal
+          # - path
+          # - sentence
+          # - snake
+          # - swap
+          # default: none
+          serialized_format: none
+
+          # possible values:
+          # - true
+          # - false
+          # default: true
+          use_doc_comment_as_description: true
+
+          # possible values:
+          # - true
+          # - false
+          # default: false
+          use_int_value_for_serialization: false

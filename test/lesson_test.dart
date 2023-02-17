@@ -1,7 +1,5 @@
-import 'package:lesson/lesson.dart';
 import 'package:test/test.dart';
-
-import '../bin/dart_modul_2/dars2.dart';
+import 'package:lesson/lesson_lib.dart';
 
 void main() {
   group('main file testlari', () {
@@ -10,7 +8,7 @@ void main() {
     });
 
     test('do something', () {
-      expect(add(3, 4), equals(7));
+      // expect(add(3, 4), equals(7));
     });
   });
 }

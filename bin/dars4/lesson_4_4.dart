@@ -1,6 +1,7 @@
 enum WeekDays<T extends Object> {
   monday<String>('Dushanba'),
-  tuesday<bool>(true);
+  tuesday<bool>(true),
+  wednesday<int>(56);
 
   final T data;
   const WeekDays(this.data);

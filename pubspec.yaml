@@ -13,7 +13,8 @@ dependencies:
   equatable: ^2.0.5
   meta: ^1.9.0
   enum_assist_annotation: any
-  analyzer: ^2.5.0
+  analyzer: any
+
 
 
 dev_dependencies:
